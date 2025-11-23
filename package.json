@@ -1,0 +1,22 @@
+{
+   "name": "nodejs_cls",
+   "version": "1.0.0",
+   "main": "server.js",
+   "scripts": {
+      "test": "echo\"Error:no test specified\" && exit 1",
+      "run_local": "node server.js",
+      "run_local2": "node server2.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "description": "",
+   "dependencies": {
+      "dotenv": "^16.4.7",
+      "express": "^4.21.2",
+      "mysql2": "^3.11.5"
+   },
+   "devDependencies": {
+      "sinon": "^19.0.2"
+   }
+}
